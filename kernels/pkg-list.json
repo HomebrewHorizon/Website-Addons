@@ -33,4 +33,8 @@
         {
             "name": "LK-OS Networking Tools",
             "description": "Network drivers and utilities for LK-OS",
-            "download": "https://home
+            "download": "https://homebrewhorizon.github.io/website-addons/dw/packages/lkos-networking-tools.zip",
+            "platform": "LK-OS"
+        }
+    ]
+}
