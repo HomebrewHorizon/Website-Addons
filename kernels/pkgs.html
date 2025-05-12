@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexchi Packages</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .package { border: 1px solid #ddd; padding: 10px; margin: 10px; background-color: #fff; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <h1>Available Packages for Hexchi</h1>
+    <div id="package-list"></div>
+
+    <script>
+        fetch("pkg-list.json")
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("package-list");
+            data.packages.forEach(pkg => {
+                const element = document.createElement("div");
+                element.className = "package";
+                element.innerHTML = `<h2>${pkg.name}</h2><p>${pkg.description}</p><a href="${pkg.download}">Download</a>`;
+                container.appendChild(element);
+            });
+        });
+    </script>
+
+</body>
+</html>
