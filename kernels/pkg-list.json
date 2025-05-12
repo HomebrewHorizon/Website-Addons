@@ -1,0 +1,40 @@
+{
+    "packages": [
+        {
+            "name": "Hexchi Core Utilities",
+            "description": "Essential system utilities for Hexchi",
+            "download": "https://yourwebsite.com/downloads/hexchi-core-utils.zip",
+            "platform": "Hexchi"
+        },
+        {
+            "name": "Hexchi File Manager",
+            "description": "Advanced file management tool",
+            "download": "https://yourwebsite.com/downloads/hexchi-file-manager.zip",
+            "platform": "Hexchi"
+        },
+        {
+            "name": "Hexchi Networking Pack",
+            "description": "Tools for managing network connections",
+            "download": "https://yourwebsite.com/downloads/hexchi-networking-pack.zip",
+            "platform": "Hexchi"
+        },
+        {
+            "name": "LK-OS Terminal",
+            "description": "Lightweight command-line interface for LK-OS",
+            "download": "https://yourwebsite.com/downloads/lkos-terminal.zip",
+            "platform": "LK-OS"
+        },
+        {
+            "name": "LK-OS Storage Manager",
+            "description": "Advanced storage handling and partition management",
+            "download": "https://yourwebsite.com/downloads/lkos-storage-manager.zip",
+            "platform": "LK-OS"
+        },
+        {
+            "name": "LK-OS Networking Tools",
+            "description": "Network drivers and utilities for LK-OS",
+            "download": "https://yourwebsite.com/downloads/lkos-networking-tools.zip",
+            "platform": "LK-OS"
+        }
+    ]
+}
